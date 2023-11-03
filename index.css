@@ -95,6 +95,9 @@ p {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+#nomessy-image{
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 1200px) {
     .container {
