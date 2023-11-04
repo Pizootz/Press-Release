@@ -19,8 +19,8 @@ body {
     width: 100%;
     padding: 100px;
     background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+    font-size: 18px;
 }
 
 h1 {
@@ -36,8 +36,14 @@ h2 {
 
 }
 
+.announcement{
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: larger;
+}
+
 p {
-    line-height: 1.6;
+    line-height: 1.8;
     color: #7f8c8d;
     padding: 10px 100px;
     justify-content: center;
@@ -86,13 +92,12 @@ p {
 }
 /* Flexbox for centering */
 .container {
-    max-width: 960px; /* for example, you can set this to any fixed value you like */
+    max-width: 1200px; /* for example, you can set this to any fixed value you like */
     width: 100%;
     margin: auto; /* this will center the container on the page */
     padding: 100px;
     background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
 }
 
 #nomessy-image{
@@ -101,7 +106,7 @@ p {
 
 @media screen and (max-width: 1200px) {
     .container {
-        padding: 50px;
+        padding: 20px;
         border: none;
         box-shadow: none;
     }
@@ -109,10 +114,10 @@ p {
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 40px;
+        padding: 20px;
     }
     p, h1, h2, .contact{
-        padding: 15px 0;
+        padding: 1px 0;
     }
 }
 
@@ -121,9 +126,11 @@ p {
         padding: 15px;
     }
     h1, h2 {
-        font-size: 18px;
+        font-size: 20px;
+        padding: 10px 0;
     }
-    p, .conmtact{
-        font-size: 14px;
+    p, .contact{
+        font-size: 16px;
+        padding: 10px 0;
     }
 }
